@@ -1,4 +1,5 @@
 {
+  "home": "https://github.com/dhruvtyagi/medium-clone.git",
   "name": "muidem",
   "version": "0.1.0",
   "private": true,
@@ -18,9 +19,12 @@
     "mongoose": "^5.9.20",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "vim": "^0.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
