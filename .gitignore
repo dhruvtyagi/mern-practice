@@ -2,6 +2,7 @@
 
 # dependencies
 /mern-todo/node_modules
+/mern-todo/backend/node_modules
 /.pnp
 .pnp.js
 
